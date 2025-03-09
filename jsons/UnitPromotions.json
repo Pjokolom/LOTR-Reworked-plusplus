@@ -1,10 +1,13 @@
 [
 
-	{
-		"name": "Heal Instantly",
-		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Melee","Mounted","Scout","Siege","Ranged","Melee Water","Ranged Water"]
-	},
+    {
+                "name": "Heal Instantly",
+                "uniques": [
+                "[This Unit] heals [50] HP",
+                "Doing so will consume this opportunity to choose a Promotion" ],
+                "row": 0,
+                "column": 0
+        },
 	
 	// Ranged+Siege
 	{

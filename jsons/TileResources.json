@@ -285,7 +285,6 @@
                 "name": "Dorwinion Wine",
                 "resourceType": "Luxury",
                 "gold": 2,
-                "uniques": ["Can only be created by Wine State City-States"]
         },
 	{
 		"name": "Sugar",

@@ -38,7 +38,7 @@
             "[+9 Culture] <starting from the [Fourth Age]>",
             "Comment [Unlocks Eagle's Escort Promotion for Hero and Melee units]",
             "Provides [1] [EaglePromotion]"
-	    "Provides [3] [SpecialEagle]",
+	    "Provides [1] [SpecialEagle] <every [15] turns>", 
         ],
         "allyBonusUniques": [
             "[+4 Culture] <before the [Second Age]>",
@@ -47,7 +47,7 @@
             "[+1 Production] from [Mountains] tiles [in all cities]",
             "No Maintenance costs for improvements in [Mountains] tiles",
             "Comment [Unlocks Eagle's Escort Promotion for Hero and Melee units]",
-	    "Provides [10] [SpecialEagle]",
+	    "Provides [1] [SpecialEagle] <every [7] turns>", 
             "Provides [1] [EaglePromotion]",
             "May buy [Great Eagle] units with [Gold] [in all cities] <if [Good] is constructed>"
         ],
@@ -60,14 +60,14 @@
             "[+4 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
             "[+8 Culture] <starting from the [Fourth Age]>",
             "[+1 Culture] from [Pasture] tiles [in capital]",
-	    "Provides [3] [SpecialBeorning]"
+	    "Provides [1] [SpecialBeorning] <every [15] turns>", 
         ],
         "allyBonusUniques": [
             "[+4 Culture] <before the [Second Age]>",
             "[+8 Culture] <starting from the [Second Age]> <before the [Fourth Age]>",
             "[+16 Culture] <starting from the [Fourth Age]>",
             "[+1 Culture] from [Pasture] tiles [in all cities]",
-	    "Provides [10] [SpecialBeorning]"
+	    "Provides [1] [SpecialBeorning] <every [7] turns>", 
             "May buy [Beorning] units with [Gold] [in all cities] <if [Good] is constructed>"
         ],
         "color": [139, 96, 255]

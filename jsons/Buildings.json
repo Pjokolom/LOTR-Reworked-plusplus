@@ -530,7 +530,7 @@
 		"cityStrength": -10,
 		"cityHealth": -50,
 		"maintenance": 1,
-		"uniques": ["Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable","Unsellable","Destroyed when the city is captured"],
 
 	},
 	{

@@ -382,7 +382,7 @@
 		"strength": 13,
 		"cost": 56,
 		"obsoleteTech": "Iron Working",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "Man of the Mountains SA",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},

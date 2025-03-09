@@ -422,6 +422,10 @@
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
 		"outerColor": [0, 0, 0],
+		"uniques": [
+            		"[-150]% [Production] [in all cities]",
+			"Free [Worker] appears",
+			"Gain a free [SmallTown] [in capital]"],
 		"innerColor": [62,197,252],
 		"cities": ["Tom Bombadil's House"]
 	},
@@ -530,9 +534,9 @@
 			"Gain a free [SmallTown] [in capital]"
 		],
 		
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "Unacceptable!",
+		"declaringWar": "...",
+		"attacked": "...",
+		"defeated": "....",
 		"outerColor": [4, 70, 5],
 		"innerColor": [153,255,51],
 		"cities": ["Eagle's Eyrie"]
