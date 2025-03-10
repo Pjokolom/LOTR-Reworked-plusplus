@@ -133,6 +133,11 @@
 		"unitTypes": ["Melee","Mounted","Flying"]
 	},
 	{
+		"name": "Special Umbar Frigate",
+		"uniques": ["[2] additional attacks per turn"],
+
+	},
+	{
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],

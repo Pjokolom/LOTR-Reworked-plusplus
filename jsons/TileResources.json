@@ -146,6 +146,10 @@
 		"resourceType": "Bonus",
 	},
 	{
+		"name": "Black Arrows",
+		"resourceType": "Bonus",
+	},
+	{
 		"name": "Iron",
 		"resourceType": "Strategic",
 		"revealedBy": "Iron Working",
@@ -199,6 +203,13 @@
 		"gold": 2,
 		"improvement": "Plantation",
 		"improvementStats": {"gold": 1},
+	},
+	{
+		"name": "Pipe Weed",
+		"resourceType": "Luxury",
+		"terrainsCanBeFoundOn": ["Grassland","Plains"],
+		"improvement": "Pipe Weed Farm",
+		"improvementStats": {"food": 1, "culture": 1},
 	},
 	{
 		"name": "Dyes",
@@ -285,6 +296,11 @@
                 "name": "Dorwinion Wine",
                 "resourceType": "Luxury",
                 "gold": 2,
+        },
+        {
+                "name": "Dalesh Toys",
+                "resourceType": "Luxury",
+
         },
 	{
 		"name": "Sugar",

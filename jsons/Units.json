@@ -369,7 +369,6 @@
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit",
 			"Only available <with [SpecialEagle]> <if [Good] is constructed>",
-			"Unbuildable <in cities without a [Eagle Supply]>"
 		],
 		"attackSound": "throw"
 	},
@@ -1163,6 +1162,22 @@
 		"requiredTech": "Navigation",
 		"hurryCostModifier": 20,
 		"attackSound": "cannon"
+	},
+	{
+		"name": "Umbar Frigate",
+		"uniqueTo": "Umbar",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 26,
+		"replaces": "Frigate",
+		"rangedStrength": 13,
+		"cost": 185,
+		"requiredResource": "Iron",
+		"uniques": ["[-33]% Strength <when fighting in [Land] tiles> <when attacking>"],
+		"requiredTech": "Navigation",
+		"hurryCostModifier": 20,
+		"attackSound": "cannon"
+		"promotions": ["Special Umbar Frigate"]
 	},
 	{
 		"name": "Trebuchet",

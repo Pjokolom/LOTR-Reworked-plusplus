@@ -445,14 +445,14 @@
 	{
 		"name": "Dale",
 		"adjective": ["Dale"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Dale",
 		"startBias": ["Coast"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "They will write songs of this.... pray that they shall be in your favor.",
 		"outerColor": [0, 0, 0],
-		"innerColor": [194,97,255],
+		"innerColor": [200,112,175],
 		"cities": ["Dale"]
 	},
 	{
@@ -592,7 +592,7 @@
 		"attacked": "...",
 		"defeated": "...",
 		"outerColor": [0, 0, 0],
-		"innerColor": [152,0,100],
+		"innerColor": [170,0,120],
 		"cities": ["Shelob's Lair"]
 	},
 	{
