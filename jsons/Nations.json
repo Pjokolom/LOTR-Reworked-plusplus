@@ -168,7 +168,7 @@
 		"tradeRequest": "Want to trade?",
 				
 		"outerColor": [19, 38, 64],
-		"innerColor": [87, 123, 173],
+		"innerColor": [87, 146, 190],
 		"uniqueName": "Terror of the North",
 		"uniqueText": "All Melee units receive Siege I promotion, +1 Movement and +10% Stength for all units during Golden Ages.",
 		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Melee] units gain the [Siege I] promotion","[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
