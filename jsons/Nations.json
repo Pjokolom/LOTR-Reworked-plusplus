@@ -31,7 +31,7 @@
 		"innerColor": [224, 218, 157],
 		"uniqueName": "Muster the Rohirrim",
 		"uniqueText": "Starts with Animal Husbandry. +1 Movement for all Mounted units, double quantity of Horses and Horses provide +1 Food."
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","Starts with [Animal Husbandry]","[+1] Movement <for [Mounted] units>","Double quantity of [Horses] produced","[+1 Food] from every [Horses]"],
+		"uniques": ["Gain a free [Man King] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","Starts with [Animal Husbandry]","[+1] Movement <for [Mounted] units>","Double quantity of [Horses] produced","[+1 Food] from every [Horses]"],
 		"cities": ["Edoras","Helm's Deep","Snowbourn","Aldburg","Dunharrow","Grimslade","Fords of Isen","Gap of Rohan","Eastemnet","Eastfold","Westemnet","Folde","Westfold","The Wold","West-March","Minhiriath","Meduseld","Framsburg"]
 	},
 	{
@@ -59,7 +59,7 @@
 		"innerColor": [69, 80, 29],
 		"uniqueName": "Years of Seafaring",
 		"uniqueText": "-66% maintenance costs for Water units, When defeating a Barbarian Water unit, earn 15 Gold and recruit it with 66% chance"
-		"uniques": ["[+1] Movement <for [Water] units>","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[-66]% maintenance costs <for [Water] units>","When defeating a [{Water}] unit, earn [15] Gold and recruit it <with [66]% chance>"],
+		"uniques": ["Gain a free [Man King] [in capital]","[+1] Movement <for [Water] units>","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[-66]% maintenance costs <for [Water] units>","When defeating a [{Water}] unit, earn [15] Gold and recruit it <with [66]% chance>"],
 		"cities": ["Umbar", "Anat an-Fuinur", "Anat an-Herumor", "Pelagris", "Umbar Gates"]
 	},
 		{
@@ -87,7 +87,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "For the White City",
 		"uniqueText": "Workers improve tiles 25% faster, receive a free Worker when you discover Pottery",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[-25]% construction time for [All] improvements","Free [Worker] appears <upon discovering [Pottery] technology>"],
+		"uniques": ["Gain a free [Man King] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[-25]% construction time for [All] improvements","Free [Worker] appears <upon discovering [Pottery] technology>"],
 		"cities": ["Minas Tirith","Osgiliath","Ithilien","Cair Andros","Dol Amroth","Lamedon","Henneth Annun","Lossarnach","Lebennin","Anfalas","Belfalas","Morthond","Ringlo Vale","Andrast","Pelargir","Linhir","Tarnost","Ethring"]
 	},
 			{
@@ -115,7 +115,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "The Voice of Saruman",
 		"uniqueText": "67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment. +25% Production towards Land units in capital. Capital can struck a Lighting Bolt (1 per Era) on the nearby enemies."
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","[+25]% Production when constructing [Land] units [in capital]","Comment [May cast a lightning bolt]"],
+		"uniques": ["Gain a free [Evil Ruler] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","[+25]% Production when constructing [Land] units [in capital]","Comment [May cast a lightning bolt]"],
 		"cities": ["Isengard","Angrenost","Fords of Isen","Nan Curunir","Dol Baran","Gwathlo","Methedras","Adorn","Wellinghall","Dunbog","Starkmoor","Pren Gwydh","Bonevales","Ral Methedras","Derndingle"]
 	},
 				{
@@ -143,7 +143,7 @@
 		"innerColor": [207, 120, 0],
 		"uniqueName": "Gather them all!",
 		"uniqueText": "Great Generals are generated 30% faster. Receives a free Nazgul when you discover Trapping. +7% Strength in Mordor Plains.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Nazgul] is earned [30]% faster","Free [Nazgul] appears <upon discovering [Trapping] technology>","Gain a free [Nazgul Supply] [in capital]","[+7]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>"],
+		"uniques": ["Gain a free [Evil Ruler] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Nazgul] is earned [30]% faster","Free [Nazgul] appears <upon discovering [Trapping] technology>","Gain a free [Nazgul Supply] [in capital]","[+7]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>"],
 		"cities": ["Barad Dur","Orodruin","Gorgoroth","Udun","Nurn","Dagorlad","Durthang","Cirith Gorgor","Ered Lithui","Ered Duath","Cirith Ungol","Morgul Pass","Black Gate","Nargroth","Morgai","Morannon","Seregost","Lithlad","Carach Angren"]
 	},
 					{
@@ -171,7 +171,7 @@
 		"innerColor": [87, 146, 190],
 		"uniqueName": "Terror of the North",
 		"uniqueText": "All Melee units receive Siege I promotion, +1 Movement and +10% Stength for all units during Golden Ages.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Melee] units gain the [Siege I] promotion","[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"uniques": ["Gain a free [Evil Ruler] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Melee] units gain the [Siege I] promotion","[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
 		"cities": ["Carn Dum","Angmar","Forod Dum","East Angmar","Northern Hills","Dor Daedeloth","Forochel","Malenhad","Nan Gurth","Gorothlad","Gundabad","Himbar","Urugarth","Aughaire"]
 	},
 						{
@@ -199,7 +199,7 @@
 		"innerColor": [125, 145, 26],
 		"uniqueName": "Horror of the Deeps",
 		"uniqueText": "+15% Combat Bonus in Friendly Land for Land units. Melee units gain 50% more Experience from combat and can pillage without spending movement points when wounded. A Balrog appears in your capital when you discover Mining"
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+15]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>","No movement cost to pillage <for [{Wounded} {Melee}] units>","[50]% XP gained from combat <for [Melee] units>","Free [Balrog] appears <upon discovering [Mining] technology>"],
+		"uniques": ["Gain a free [Evil Ruler] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+15]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>","No movement cost to pillage <for [{Wounded} {Melee}] units>","[50]% XP gained from combat <for [Melee] units>","Free [Balrog] appears <upon discovering [Mining] technology>"],
 		"cities": ["Moria","Goblin town","Withered Heath","Ettenmoors","High Pass","Dwarrodelf","Glaurung","Ancalagon","Scatha","Gram Mountain","Rhimdath","Cold Fields","Hoardale"]
 	},
 							{
@@ -283,7 +283,7 @@
 		"innerColor": [110, 47, 2],
 		"uniqueName": "Shadow of the East",
 		"uniqueText": "+1 Culture, +1 Gold, +1 Science from each Trade Route.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+1 Culture, +1 Science, +1 Gold] from each Trade Route"],
+		"uniques": ["Gain a free [Man King] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[+1 Culture, +1 Science, +1 Gold] from each Trade Route"],
 		"cities": ["Khamul's Tower","Basilan","Runost","Karslan","Atalak","Path of Rudel","Ash Ford"]
 	},
 		    								{
@@ -311,7 +311,7 @@
 		"innerColor": [101, 10, 18],
 		"uniqueName": "Desert Tribes",
 		"uniqueText": "Receive triple Gold from Barbarian encampments and pillaging Cities. +1 Production and +1 Food from every Ivory and +2 Culture from each Oasis.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","New [Haradrim Lancer] units start with [30] Experience [in all cities]","Receive triple Gold from Barbarian encampments and pillaging Cities","[+1 Production, +1 Food] from every [Ivory]","[+2 Culture] from every [Oasis]"],
+		"uniques": ["Gain a free [Evil Ruler] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","New [Haradrim Lancer] units start with [30] Experience [in all cities]","Receive triple Gold from Barbarian encampments and pillaging Cities","[+1 Production, +1 Food] from every [Ivory]","[+2 Culture] from every [Oasis]"],
 		"cities": ["Harad","Belkadar","Ninzadin","An-Batina","Harnen","Lifa-Tun","Gat-Azrazein","Izhdi Ilel","Ugri-Zadin"]
 	},
 	   {
@@ -338,7 +338,7 @@
 		"innerColor": [170, 100, 25],
 		"uniqueName": "Blessings of the Valar",
 		"uniqueText": "+20% great person generation in all cities. +1 Culture and +1 Gold from every specialist.",
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[+20]% Great Person generation [in all cities]","[+1 Culture, +1 Gold] from every specialist [in all cities]"],
+		"uniques": ["Gain a free [Elvish Lord] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[+20]% Great Person generation [in all cities]","[+1 Culture, +1 Gold] from every specialist [in all cities]"],
 		"cities": ["Rivendell","Bruinen","Ost-Hithaeglir","Hollin","Ost-in-Edhil","Glad Ereg","Mingarth","Tadgarth","Emun Naer","Hoarwell","Glanduin","Nin-in-Eilp","Gath Ulor","Urugarth","Duvumen"]
 	}, 
 {
@@ -366,7 +366,7 @@
 		"innerColor": [59, 138, 75],
 		"uniqueName": "Elven Grace",
 		"uniqueText": "All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", 
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
+		"uniques": ["Gain a free [Elvish Lord] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
 		"cities": ["Elvenking's Halls","Amon Lanc","Emyn Duir","Eryn Lasgalen","Carrock","Anduin Valley","Rhunen-Taur","Emyn-Nu-Fuin","Galentaur","Langwell","East Blight","Greylin","Langflood"]
 	},
 	{
@@ -394,7 +394,7 @@
 		"innerColor": [119, 39, 190],
 		"uniqueName": "The Road goes ever on",
 		"uniqueText": "-15% maintenance cost for buildings in all cities and +1 Happiness in cities on Grassland tiles. Roads cost 33% less maintenance and provide 1 Culture each during a Golden Age."
-		"uniques": ["Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[+1 Happiness] in cities on [Grassland] tiles","[+1 Culture] from every [Road] <during a Golden Age>","[-50]% maintenance on road & railroads","[-15]% maintenance cost for buildings [in all cities]"],
+		"uniques": ["Gain a free [Man King] [in capital]","Gain a free [Good] [in capital]","[+1 Happiness] in cities on [Grassland] tiles","[+1 Culture] from every [Road] <during a Golden Age>","[-50]% maintenance on road & railroads","[-15]% maintenance cost for buildings [in all cities]"],
 		"cities": ["Michel Delving","Tuckborough","Hobbiton","Waymoot","Bywater","Tookbank","Longbottom","Oatborton","Gamwich","Frogmorton","Whitfurrows","The Marish","Scary","Stock","Needlehole","Woodhall"]
 	},
 	//City-States
@@ -481,20 +481,7 @@
 		"innerColor": [255,97,255],
 		"cities": ["Tol Morwen"]
 	},
-	{
-		//Only used on one map
-		"name": "Numenor",
-		"adjective": ["Numenor"],
-		"cityStateType": "Maritime",
-		"startBias": ["Coast"],
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
-		"outerColor": [0, 0, 0],
-		"innerColor": [255,69,0],
-		"cities": ["Numenor"]
-	},
 	{
 		"name": "Bree",
 		"adjective": ["Bree"],
@@ -645,23 +632,6 @@
 		"innerColor": [151,125,0],
 		"cities": ["Rhosgobel"]
 	},
-	//old
-	{
-		"name": "Crissaegrim",
-		"adjective": ["Crissaegrim"],
-		"cityStateType": "Cultured",
-		"uniques": [
-			"Will not be chosen for new games"
-		],
-
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "So this is how it feels to die...",
-		"outerColor": [0, 0, 0],
-		"innerColor": [51, 51, 255],
-		"cities": ["Crissaegrim"]
-	},
-
 
 	{
 		"name": "Kingdom of Rhovanion",
@@ -694,8 +664,8 @@
 	//Barbarian
 	{
 		"name": "Barbarians",
-		"outerColor": [0, 0, 0],
-		"innerColor": [185, 12, 12],
+		"outerColor": [30, 5, 5],
+		"innerColor": [195, 25, 25],
 		"uniques": ["Can only heal by pillaging"]
 	}
 

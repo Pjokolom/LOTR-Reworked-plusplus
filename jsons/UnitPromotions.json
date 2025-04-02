@@ -460,6 +460,16 @@
 		"unitTypes": ["Melee", "Ranged", "Mounted", "Scout"]
 	},
 	{
+		"name": "Shining Armor",
+		"prerequisites": ["Melee", "Hero"],
+		"uniques": [
+			"Only available <with [Mithril]>",
+			"[+25]% Strength <when defending>"
+
+		],
+		"unitTypes": ["Melee", "Ranged", "Mounted", "Scout"]
+	},
+	{
 		"name": "Rejuvenation", // only for Units that have been close to Natural Wonder Fountain of Youth
 		"uniques": ["All healing effects doubled"]
 	},

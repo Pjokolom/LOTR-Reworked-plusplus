@@ -1,6 +1,14 @@
 [	// Victory resources
 	{
-		"name": "Ring",
+		"name": "Dwarven RingsR",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Elven RingsR",
+		"resourceType": "Luxury",
+	},
+	{
+		"name": "Men RingsR",
 		"resourceType": "Luxury",
 	},
 	{
@@ -55,18 +63,7 @@
 		"name": "Nazgul",
 		"resourceType": "Bonus",
 	},
-	{
-		"name": "Elven Rings",
-		"resourceType": "Bonus",
-	},
-	{
-		"name": "Men Rings",
-		"resourceType": "Bonus",
-	},
-	{
-		"name": "Dwarven Rings",
-		"resourceType": "Bonus",
-	},
+
 	// Bonus resources
 	{
 		"name": "Cattle",

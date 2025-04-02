@@ -69,6 +69,7 @@
 				"name": "Writing",
 				"row": 3,
 				"prerequisites": ["Pottery"],
+				"uniques": ["Enables Open Borders agreements"],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
 			{
@@ -183,7 +184,6 @@
 				"name": "Civil Service",
 				"row": 5,
 				"prerequisites": ["Currency","Horseback Riding","Philosophy"],
-				"uniques": ["Enables Open Borders agreements"],
 				"quote": "'The only thing that saves us from the bureaucracy is its inefficiency' - Eugene McCarthy"
 			},
 			{
