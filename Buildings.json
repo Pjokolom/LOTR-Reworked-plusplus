@@ -1,0 +1,1050 @@
+[	
+
+	
+								{
+		"name": "Train Fellbeast",
+		"uniqueTo": "Mordor",
+		"cost": 120,
+		"requiredTech": "Chivalry",
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia","Provides [1] [Fellbeast]","Unsellable"]
+		},
+	{
+		"name": "First Lightning Bolts",
+		"uniqueTo": "Isengard",
+		"cost": 0,
+		"uniques": ["Automatically built in all cities where it is buildable","Can only be built <in [in capital] cities>", "Free [Lightning Bolt] appears", "Unsellable", "Limited to [1] per Civilization",
+				"Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Second Lightning Bolts",
+		"uniqueTo": "Isengard",
+		"cost": 0,
+		"uniques": ["Automatically built in all cities where it is buildable","Can only be built <in [in capital] cities>", "Free [Lightning Bolt] appears", "Unsellable", 
+				"Only available <starting from the [Second Age]>","Limited to [1] per Civilization", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Third Lightning Bolt",
+		"uniqueTo": "Isengard",
+		"cost": 0,
+		"uniques": ["Automatically built in all cities where it is buildable","Can only be built <in [in capital] cities>", "Free [Lightning Bolt] appears", "Unsellable", 
+				"Only available <starting from the [Third Age]>","Limited to [1] per Civilization", "Will not be displayed in Civilopedia"]
+	},
+	{
+		"name": "Fourth Lightning Bolt",
+		"uniqueTo": "Isengard",
+		"cost": 0,
+		"uniques": ["Automatically built in all cities where it is buildable","Can only be built <in [in capital] cities>", "Free [Lightning Bolt] appears", "Unsellable", 
+				"Only available <starting from the [Fourth Age]>","Limited to [1] per Civilization", "Will not be displayed in Civilopedia"]
+    	},
+	{
+		"name": "Nazgul Supply",
+		"uniqueTo": "Mordor",
+		"cost": 0,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [9] [Nazgul]","[Nazgul] is earned [-149]% faster <without [Nazgul]>", "Unbuildable"]
+	},
+												{
+		"name": "RSupply",
+		"cost": 0,
+		"uniques": ["Automatically built in all cities where it is buildable","Will not be displayed in Civilopedia","Provides [3] [Supply]","Unsellable"]
+		},
+	{
+		"name": "Watchtower",
+		"uniqueTo": "Arnor",
+		"cost": 20,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Can only be built <in [in capital] cities>", "Free [Watchtower Guard] appears", "[3] Unit Supply", "Unsellable"],
+	},
+	{
+		"name": "Ent Supply",
+		"uniqueTo": "Entwood",
+		"hurryCostModifier": 40,
+		"cost": 1,
+		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [8] [SpecialEnt]", "Unsellable","Good"],
+	},
+	{
+		"name": "Eagle Supply",
+		"uniqueTo": "Eagle's Eyrie",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [2] [SpecialEagle]", "Unsellable","Good"],
+	},
+	{
+		"name": "Beorning Supply",
+		"uniqueTo": "Beorn's Hall",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [3] [SpecialBeorning]", "Unsellable","Good"],
+	},
+	{
+		"name": "Spider Supply",
+		"uniqueTo": "Shelob's Lair",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [8] [SpecialSpider]", "Unsellable","Evil"],
+	},
+	{
+		"name": "Corsair Supply",
+		"uniqueTo": "Umbar",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [6] [SpecialCorsair]", "Unsellable","Evil"],
+	},
+	{
+		"name": "Dunlending Supply",
+		"uniqueTo": "Dunland",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [12] [SpecialDunlending]", "Unsellable","Evil"],
+	},
+	{
+		"name": "Dead Supply",
+		"uniqueTo": "Paths of the Dead",
+		"cost": 1,
+		"hurryCostModifier": 40,
+		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [1] [SpecialDead]", "Unsellable"],
+	},
+	{
+		"name": "Oath of the Mountain",
+		"isNationalWonder": true,
+		"culture": 1,
+		"cost": 200,
+		"hurryCostModifier": 40,
+		"uniques": ["[-2 Culture] <after adopting [Constitution]>","Triggers a global alert upon build start","Only available <before the [Third Age]> <with [SpecialDead]>"],
+	},
+	{
+		"name": "Stone of Erech",
+		"isWonder": true,
+		"culture": 1,
+		"production": 1,
+		"greatPersonPoints": {"Great Artist": 1},
+		"requiredTech": "Steel",
+		"uniques": [
+			"[+1] Movement <for [Dead Man of Dunharrow] units> <for [3] turns>",
+			"[7] free [Dead Man of Dunharrow] units appear",
+			"Triggers a global alert upon build start","Only available <when at war> <with [SpecialDead]> <in cities with a [Oath of the Mountain]>",
+		],
+	},
+	{
+		"name": "Harad Training Grounds",
+		"uniqueTo": "Harad",
+		"hurryCostModifier": 40,
+		"cost": 1,
+		"uniques": ["Automatically built in all cities where it is buildable","Destroyed when the city is captured","Will not be displayed in Civilopedia","New [Haradrim Lancer] units start with [30] Experience [in this city]","Unsellable"],
+	},
+			{
+		"name": "Rings",
+		"cost": 20,
+		"isNationalWonder": true,
+		"hurryCostModifier": 40,
+		"uniques": ["[-2 Culture] <after adopting [Constitution]>","Will not be displayed in Civilopedia","Unbuildable","Unsellable"],
+	},
+	
+	// Hero Spawners "Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]",
+	{
+		"name": "Good",
+		"isNationalWonder": true,
+		"gold": 2,
+		"uniques": ["[-2 Culture] <after adopting [Constitution]>","Unbuildable"],
+	},
+	{
+		"name": "Evil",
+		"isNationalWonder": true,
+		"gold": 2,
+		"uniques": ["[-2 Culture] <after adopting [Constitution]>","Unbuildable"],
+	},
+	{
+		"name": "Dwarf King",
+		"isNationalWonder": true,
+		"gold": 0,
+		"uniques": ["Unbuildable"],
+	},
+	{
+		"name": "Evil Ruler",
+		"isNationalWonder": true,
+		"gold": 0,
+		"uniques": ["Unbuildable"],
+	},
+	{
+		"name": "Elvish Lord",
+		"isNationalWonder": true,
+		"gold": 0,
+		"uniques": ["Unbuildable"],
+	},
+{
+		"name": "Man King",
+		"isNationalWonder": true,
+		"gold": 0,
+		"uniques": ["Unbuildable"],
+	},
+	{
+		"name": "Summon Gandalf",
+		"isWonder": true,
+		"cost": 170,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Gandalf, the Grey] appears", "Unsellable", "Provides [1] [Special]", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Eowyn",
+		"isWonder": true,
+		"cost": 150,
+		"uniques": ["Hero Spawner","[-10]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Eowyn] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Theoden",
+		"isWonder": true,
+		"cost": 170,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Theoden] appears", "Unsellable",
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Faramir",
+		"isWonder": true,
+		"cost": 175,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Faramir] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Elrond",
+		"isWonder": true,
+		"cost": 180,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Elrond] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Aragorn",
+		"isWonder": true,
+		"cost": 185,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Aragorn] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Gimli",
+		"isWonder": true,
+		"cost": 200,
+		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Gimli] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Galadriel",
+		"isWonder": true,
+		"cost": 220,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Galadriel] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Legolas",
+		"isWonder": true,
+		"cost": 250,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Legolas] appears", "Unsellable", 
+				"Only available <if [Good] is constructed>"],
+	},
+	{
+		"name": "Summon Wormtongue",
+		"isWonder": true,
+		"cost": 140,
+		"uniques": ["Hero Spawner","[-10]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Wormtongue] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Lieutenant Gothmog",
+		"isWonder": true,
+		"cost": 150,
+		"uniques": ["Hero Spawner","[-10]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Lieutenant Gothmog] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+        {
+		"name": "Summon Lord Gothmog",
+		"isWonder": true,
+		"cost": 190,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Lord Gothmog] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+
+	{
+		"name": "Summon Azog",
+		"isWonder": true,
+		"cost": 190,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Azog] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Smaug",
+		"isWonder": true,
+		"cost": 200,
+		"uniques": ["Hero Spawner","[-15]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Smaug] appears", "Unsellable", 
+		            "Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Saruman",
+		"isWonder": true,
+		"cost": 210,
+		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Saruman] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Shelob",
+		"isWonder": true,
+		"cost": 220,
+		"uniques": ["Hero Spawner","[-20]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Shelob] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Witch-king",
+		"isWonder": true,
+		"cost": 250,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Witch-king] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	{
+		"name": "Summon Mouth of Sauron",
+		"isWonder": true,
+		"cost": 250,
+		"uniques": ["Hero Spawner","[-25]% Production when constructing [Hero Spawner] wonders [in all cities]","[-2 Culture] <after adopting [Constitution]>","Free [Mouth of Sauron] appears", "Unsellable", 
+				"Only available <if [Evil] is constructed>"],
+	},
+	
+	// First Age
+	{
+		"name": "Palace",
+		"isNationalWonder": true,
+		"production": 2,
+		"science": 1,
+		"gold": 2,
+		//"specialistSlots":  {"Sculptor": 1, "Researcher": 1, "Inventor": 1, "Seller": 1 },
+		"culture": 1,
+		"cityStrength": 2,
+		"cost": 1,
+		"uniques": ["[-20]% Culture cost of adopting new Policies","[+25]% [Culture] [in all cities]","Indicates the capital city"]
+	},
+	{
+		"name": "Monument",
+		"culture": 2,
+		"specialistSlots":  {"Sculptor": 1},
+		"cost": 45,
+		"hurryCostModifier": 40,
+		"maintenance": 1
+	},
+	{
+		"name": "Barrow",
+		"replaces": "Monument",
+		"uniqueTo": "Arnor",
+		"specialistSlots":  {"Sculptor": 1},
+		"culture": 3,
+		"cost": 45,
+		"hurryCostModifier": 40,
+		"maintenance": 0
+	},
+	{
+		"name": "Granary", 
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "SmallTown", 
+		"cityStrength": -10,
+		"cityHealth": -50,
+		"maintenance": 1,
+		"uniques": ["Will not be displayed in Civilopedia","Unbuildable","Unsellable","Destroyed when the city is captured"],
+
+	},
+	{
+		"name": "Lockholes", 
+		"replaces": "Granary",
+		"uniqueTo": "The Shire",
+		"cityStrength": 2,
+		"cityHealth": 25,
+		"culture": 1,
+		"food": 2,
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
+			"[+1 Food] from [Bananas] tiles [in this city]",
+			"[+1 Food] from [Wheat] tiles [in this city]"],
+		"requiredTech": "Pottery"
+	},
+	{
+		"name": "Temple of Melian",
+		"culture": 1,
+		"isWonder": true,
+		"cost": 185,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [{Ranged} {Land}] units [in all cities]"],
+		"requiredTech": "Archery"
+	},
+	{
+		"name": "Alqualondë",
+		"culture": 2,
+		"gold": 4,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"requiredTech": "Sailing"
+	},
+	{
+		"name": "Stone Works", 
+		"happiness": 1,
+		"production": 1,
+		"specialistSlots":  {"Sculptor": 1, "Inventor": 1},
+		"requiredNearbyImprovedResources": ["Marble", "Stone"],
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"uniques": [
+			"[+1 Production] from [Stone] tiles [in this city]",
+			"[+1 Production] from [Marble] tiles [in this city]"],
+		"requiredTech": "Calendar"
+	},
+	{
+		"name": "Nargothrond",
+		"culture": 5,
+		"food": 2,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"requiredTech": "Calendar",
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"specialistSlots": {"Researcher": 1},
+		"uniques": ["[+1 Science] per [4] population [in this city]"],
+		"requiredTech": "Writing"
+	},
+	{
+		"name": "The Great Archive",
+		"science": 2,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Writing",
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+	},
+	{
+		"name": "Circus", 
+		"requiredNearbyImprovedResources": ["Ivory","Horses"],
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "Water Mill",
+		"maintenance": 2,
+		"food": 2,
+		"production": 1,
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Inventor": 1},
+		"uniques": ["Must be on [River]"],
+		"requiredTech": "The Wheel"
+	},
+	{
+		"name": "Walls",
+		"cityStrength": 5,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Black Ice Walls",
+		"replaces": "Walls",
+		"uniqueTo": "Angmar",
+		"Science": 1,
+		"cityStrength": 6,
+		"cityHealth": 100,
+		"hurryCostModifier": 25,
+		"uniques": ["Destroyed when the city is captured"],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Formenos",
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[-25]% construction time for [All] improvements", "[2] free [Worker] units appear"],
+		"requiredTech": "Masonry"
+	},
+	{
+		"name": "Gondolin",
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
+			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
+		"requiredTech": "Masonry",
+	},
+	{
+		"name": "Barracks",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["New [Military] units start with [15] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Angband",
+		"production": 2,
+		"isWonder": true,
+		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"requiredTech": "Bronze Working"
+	},
+	{
+		"name": "Lighthouse",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"specialistSlots": {"Seller": 1},
+		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Grey Havens",
+		"culture": 2,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+		"requiredTech": "Optics"
+	},
+	{
+		"name": "Stable", 
+		"maintenance": 1,
+		"specialistSlots": {"Inventor": 1, "Seller": 1},
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]", 
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Mearas Stable", 
+		"replaces": "Stable",
+		"uniqueTo": "Rohan",
+		"specialistSlots": {"Inventor": 1, "Seller": 1},
+		"requiredNearbyImprovedResources": ["Horses","Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"production": 1,
+		"gold": 2,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]", 
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Horses] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Hog Stable", 
+		"replaces": "Stable",
+		"uniqueTo": "Dwarves",
+		"requiredNearbyImprovedResources": ["Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"production": 1,
+		"food": 1,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]", 
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"
+			"Provides [5] [Rideble Hog]"],
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "Ram Stable", 
+		"replaces": "Stable",
+		"uniqueTo": "Blue Mountains Dwarves",
+		"requiredNearbyImprovedResources": ["Sheep","Cattle"],
+		"hurryCostModifier": 25,
+		"food": 2,
+		"uniques": ["[+15]% Production when constructing [Mounted] units [in this city]", 
+			"[+1 Production] from [Cattle] tiles [in this city]",
+			"[+1 Production] from [Sheep] tiles [in this city]"
+			"Provides [5] [Rideble Ram]"],
+		"requiredTech": "Trapping"
+	},
+	{
+		"name": "Giant Circus",
+		"cost": 125,
+		"happiness": 5,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Horseback Riding"
+	},
+	{
+		"name": "Menegroth",
+		"greatPersonPoints": {"Great Artist": 1},
+		"food": 8,
+		"production": 2,
+		"isWonder": true,
+		"requiredTech": "Mathematics",
+	},
+	{
+		"name": "Courthouse",
+		"maintenance": 4,
+		"hurryCostModifier": 50,
+		"uniques": ["Remove extra unhappiness from annexed cities",
+			"Can only be built <in [in annexed cities] cities>"],
+		"requiredTech": "Mathematics"
+	},
+	{
+		"name": "Colosseum", 
+		"maintenance": 1,
+		"happiness": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Construction"
+	},
+	{
+		"name": "Caras Galadhon",
+		"culture": 3,
+		"production": 2,
+		"happiness": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"requiredTech": "Construction"
+	},
+	
+	// Second Age
+	{
+		"name": "Temple",
+		"culture": 3,
+		"specialistSlots": {"Artist": 1},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "The Mirror of Galadriel",
+		"culture": 3,
+		"science": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["Free Social Policy"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "National Epic",
+		"cost": 125,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "National College",
+		"cost": 125,
+		"science": 2,
+		"culture": 1,
+		"isNationalWonder": true,
+		"percentStatBonus": {"science": 50},
+		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Philosophy"
+	},
+	{
+		"name": "Market",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"gold": 25},
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Mint",
+		"maintenance": 0,
+		"requiredNearbyImprovedResources": ["Gold Ore","Silver","Copper"],
+		"specialistSlots": {"Seller": 1},
+		"hurryCostModifier": 25,
+		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", 
+			"[+2 Gold] from [Silver] tiles [in this city]", 
+			"[+2 Gold] from [Copper] tiles [in this city]"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "National Treasury",
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Currency"
+	},
+	{
+		"name": "Ent Moot",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["Must be next to [Forest]", "[3] free [Ent] units appear","Provides [3] [SpecialEnt]", "[+1 Production, +1 Culture] from [Forest] tiles [in this city]"],
+		"requiredTech": "Currency",
+	},
+	{
+		"name": "Aqueduct",
+		"maintenance": 1,
+		"hurryCostModifier": 0,
+		"specialistSlots": {"Inventor": 1},
+		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
+		"requiredTech": "Engineering"
+	},
+	{
+		"name": "The Deeping Wall",
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory", 
+			"Gain a free [Walls] [in this city]"],
+		"requiredTech": "Engineering",
+	},
+	{
+		"name": "Minas Anor",
+		"gold": 3,
+		"happiness": 2,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"culture": 1,
+		"isWonder": true,
+		"uniques": ["[+25]% [Gold] from Trade Routes", "Must have an owned [Mountains] within [2] tiles"],
+		"requiredTech": "Engineering",
+	},
+	{
+		"name": "Heroic Epic",
+		"cost": 125,
+		"culture": 1,
+		"xpForNewUnits": 25,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-air] units [in this city] receive the [Morale] promotion",
+			"Cost increases by [30] per owned city"],
+		"requiredTech": "Iron Working"
+	},
+	{
+		"name": "Garden",
+		"cost": 120,
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Fresh water]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Elvenking's Halls",
+		"uniqueTo": "Sindar Elves",
+		"replaces": "Garden",
+		"cityStrength": 5,
+		"culture": 1,
+		"production": 1,
+		"cost": 120,
+		"uniques": ["[+25]% Great Person generation [in this city]", "Must be next to [Vegetation]"],
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Monastery",
+		"maintenance": 0,
+		"specialistSlots": {"Sculptor": 1},
+		"requiredNearbyImprovedResources": ["Wine","Incense"],
+		"uniques": ["[+2 Culture] from [Wine] tiles [in this city]", "[+2 Culture] from [Incense] tiles [in this city]"],
+		"hurryCostModifier": 25,
+		"requiredTech": "Theology"
+	},
+	{
+		"name": "Orthanc",
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+50]% Golden Age length"],
+		"requiredTech": "Guilds",
+	},
+	{
+		"name": "Workshop", 
+		"maintenance": 2,
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"percentStatBonus": {"production": 10},
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Forge",
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"specialistSlots": {"Inventor": 1},
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"]
+	},
+	{
+		"name": "Furnace",
+		"uniqueTo": "Isengard",
+		"replaces": "Forge",
+		"specialistSlots": {"Inventor": 1},
+		"maintenance": 1,
+		"hurryCostModifier": 25,
+		"requiredTech": "Metal Casting",
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Lumber mill] tiles [in this city]", "[+1 Production] from [Iron] tiles [in this city]"]
+	},
+	{
+		"name": "Eregion Forge",
+		"replaces": "Forge",
+		"uniqueTo": "Noldor Elves",
+		"gold": 2,
+		"science": 1,
+		"specialistSlots": {"Inventor": 1},
+		"percentStatBonus": {"gold": 15},
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
+			"[+1 Production] from [Iron] tiles [in this city]"]
+	},
+	{
+		"name": "Great Dwarven Forge",
+		"replaces": "Forge",
+		"uniqueTo": "Blue Mountains Dwarves",
+		"science": 1,
+		"specialistSlots": {"Inventor": 1},
+		"hurryCostModifier": 25,
+		"requiredNearbyImprovedResources": ["Iron"],
+		"requiredTech": "Metal Casting",
+		"uniques": ["[+15]% Production when constructing [Land] units [in this city]",
+			"[+3 Production] from [Iron] tiles [in this city]","Double quantity of [Iron] produced","Double quantity of [Copper] produced"]
+	},
+	
+	// Third Age
+	{
+		"name": "Harbor",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"uniques": ["[+1 Production] from [Water resource] tiles [in this city]",
+			"Connects trade routes over water", "Must be next to [Coast]"],
+		"requiredTech": "Compass"
+	},
+	{
+		"name": "University",
+		"maintenance": 2,
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 33},
+		"specialistSlots": {"Scientist": 2},
+		"requiredBuilding": "Library",
+		"uniques": ["[+1 Science] from [Jungle] tiles [in this city]"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Great University",
+		"cost": 125,
+		"science": 1,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Free Technology", "Cost increases by [30] per owned city"],
+		"requiredTech": "Education"
+	},
+	{
+		"name": "Bag End",
+		"culture": 3,
+		"happiness": 10,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"requiredTech": "Education",
+	},
+	{
+		"name": "Castle",
+		"cityStrength": 7,
+		"cityHealth": 25,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"uniques": ["Destroyed when the city is captured","Free [Bombardment Archer] appears","Unsellable"],
+		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Barricade",
+		"replaces": "Castle",
+		"uniqueTo": "Mordor",
+		"production": 2,
+		"cityStrength": 8,
+		"cityHealth": 50,
+		"hurryCostModifier": 25,
+		"requiredBuilding": "Walls",
+		"requiredTech": "Chivalry"
+		"uniques": ["Destroyed when the city is captured","Free [Barricade Archer] appears","Unsellable"],
+	},
+	{
+		"name": "Dol Guldur",
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"requiredTech": "Chivalry",
+	},
+	{
+		"name": "Minas Morgul",
+		"culture": 1,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"percentStatBonus": {"culture": 20},
+		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
+			"Gain a free [Castle] [in this city]"],
+		"requiredTech": "Chivalry"
+	},
+	{
+		"name": "Ironworks",
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Machinery"
+	},
+	{
+		"name": "Argonath",
+		"culture": 1,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["[+25]% Great Person generation [in all cities]"],
+		"requiredTech": "Physics",
+	},
+	{
+		"name": "Armory",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"requiredBuilding": "Barracks",
+		"uniques": ["New [Military] units start with [25] Experience [in this city]", "Destroyed when the city is captured"],
+		"requiredTech": "Steel"
+	},
+	{
+		"name": "Observatory",
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"science": 50},
+		"requiredBuilding": "Library",
+		"uniques": ["Must be next to [Mountains]"],
+		"requiredTech": "Astronomy"
+	},
+	{
+		"name": "Opera House",
+		"culture": 4,
+		"specialistSlots": {"Artist": 1},
+		"hurryCostModifier": 10,
+		"requiredBuilding": "Temple",
+		"maintenance": 2,
+		"requiredTech": "Acoustics"
+	},
+	{
+		"name": "Dome of Stars",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["[+50]% [Culture] [in all cities]"],
+		"requiredTech": "Acoustics",
+	},
+	{
+		"name": "Bank",
+		"gold": 2,
+		"specialistSlots": {"Merchant": 1},
+		"hurryCostModifier": 15,
+		"percentStatBonus": {"gold": 25},
+		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "White Tower of Ecthelion",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["[-10]% Unhappiness from [Population] [in all cities]"],
+		"requiredTech": "Banking",
+	},
+	{
+		"name": "Theatre",
+		"happiness": 3,
+		"hurryCostModifier": 10,
+		"maintenance": 2,
+		"requiredBuilding": "Colosseum",
+		"requiredTech": "Printing Press"
+	},
+	{
+		"name": "The Tower Hills",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},	
+		"uniques": ["Free Great Person"],
+		"requiredTech": "Printing Press",
+	},
+	{
+		"name": "Seaport",
+		"hurryCostModifier": 25,
+		"maintenance": 3,
+		"requiredBuilding": "Harbor",
+		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
+			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Navigation"
+	},
+	{
+		"name": "Amon Sul",
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {"Great Artist": 2},
+		"isWonder": true,
+		"uniques": ["Empire enters golden age"],
+		"requiredTech": "Architecture",
+	},
+	
+	// Renaissance Era
+	{
+		"name": "Meduseld",
+		"culture": 3,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"providesFreeBuilding": "Castle",
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"],
+		"requiredTech": "Economics",
+		},
+	{
+		"name": "Windmill",
+		"production": 2,
+		"specialistSlots": {"Engineer": 1},
+		"hurryCostModifier": 25,
+		"maintenance": 2,
+		"uniques": ["Must not be on [Hill]", "[10]% Production when constructing [Buildings] buildings [in this city]"],
+		"requiredTech": "Economics"
+	},
+	{
+		"name": "One Ring",
+		"cost": 125,
+		"culture": 1,
+		"xpForNewUnits": 25,
+		"isNationalWonder": true,
+		"uniques": ["Consumes [1] [Dwarven RingsR]","Consumes [3] [Men RingsR]","Consumes [1] [Elven RingsR]","Triggers a global alert upon build start"],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Dwarven Rings",
+		"cost": 125,
+		"culture": 9,
+		"xpForNewUnits": 25,
+		"requiredNearbyImprovedResources": ["Gold Ore"],
+		"isNationalWonder": true,
+		"uniques": ["Provides [1] [Dwarven RingsR]","Only available <if [Dwarf King] is constructed>"],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Elven Rings",
+		"cost": 125,
+		"culture": 9,
+		"xpForNewUnits": 25,
+		"requiredNearbyImprovedResources": ["Gold Ore"],
+		"isNationalWonder": true,
+		"uniques": ["Provides [1] [Elven RingsR]","Only available <if [Elvish Lord] is constructed>"],
+		"requiredTech": "Metal Casting"
+	},
+	{
+		"name": "Men Rings",
+		"cost": 125,
+		"culture": 9,
+		"xpForNewUnits": 25,
+		"requiredNearbyImprovedResources": ["Gold Ore"],
+		"isNationalWonder": true,
+		"uniques": ["Provides [1] [Men RingsR]","Only available <if [Man King] is constructed>"],
+		"requiredTech": "Metal Casting"
+	},
+	
+]
