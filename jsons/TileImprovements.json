@@ -246,6 +246,37 @@
 			"Cannot be built on [Oasis] tiles","Great Improvement", "[+1 Gold] <after discovering [Economics]>","Removes removable features when built", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
+		"name": "Street",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Desert","Tundra","Flood plains"],
+		"gold": 1,
+		"food": 1,
+		"culture": 1,
+		"uniques": [
+			"Cannot be built on [Cattle] tiles", "[+1 Gold] <after discovering [Architecture]>", "[+2 Food] <after discovering [Architecture]>","Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]", "Gives a defensive bonus of [18]%", "Gives a defensive bonus of [20]% <after discovering [Architecture]>","Consumes [1] [Stone]"]
+	},
+	{
+		"name": "Hobbit Street",
+		"terrainsCanBeBuiltOn": ["Plains","Grassland","Hill"],
+		"uniqueTo": "The Shire",
+		"replaces": "Street",
+		"food": 1,
+		"culture": 2,
+		"uniques": [
+			"Cannot be built on [Cattle] tiles", "[+1 Gold] <after discovering [Architecture]>", "[+1 Food] <after discovering [Architecture]>", "[+1 Production] <after discovering [Architecture]>","Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]", "Gives a defensive bonus of [18]%", "Gives a defensive bonus of [20]% <after discovering [Architecture]>","Consumes [1] [Stone]"]
+	},
+	{
+		"name": "Dwarven Dorm",
+		"terrainsCanBeBuiltOn": ["Mountains","Blue Mountains","Red Mountains"],
+		"food": 1,
+		"production": 1,
+		"gold": 1,
+		"uniques": [
+			"Cannot be built on [Cattle] tiles", "[+1 Gold] <after discovering [Architecture]>", "[+1 Food] <after discovering [Architecture]>", "[+1 Production] <after discovering [Architecture]>","Removes removable features when built",
+			"Pillaging this improvement yields approximately [+20 Gold]", "Gives a defensive bonus of [18]%", "Gives a defensive bonus of [20]% <after discovering [Architecture]>","Consumes [1] [Stone]"]
+	},
+	{
 		"name": "Citadel",
 		"terrainsCanBeBuiltOn": ["Land"],
 		"uniques": [
@@ -255,6 +286,18 @@
 			"Can be built just outside your borders",
 			"Gain control over [all] tiles in a [1]-tile radius",
 			"Removes removable features when built",
+		]
+	},
+	{
+		"name": "Archer Tower",
+		"terrainsCanBeBuiltOn": ["Land"],
+		"uniques": [
+			"Gives a defensive bonus of [10]%",
+			"Adjacent enemy units ending their turn take [20] damage",
+			"Can be built just outside your borders",
+			"Gain control over [all] tiles in a [0]-tile radius",
+			"Removes removable features when built",
+			"Costs [2] [Gold] per turn when in your territory"
 		]
 	},
 

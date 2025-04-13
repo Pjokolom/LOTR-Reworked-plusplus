@@ -334,102 +334,29 @@
 				"name": "Future Tech",
 				"row": 5,
 				"prerequisites": ["Chemistry","Economics","Architecture","Navigation"],
-				"uniques": ["Can be continually researched"],
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]				
 				"quote": "'I think we agree, the past is over.' - George W. Bush"
 			},
 			],
 			},
 					{
-		"columnNumber": 19,
+		"columnNumber": 10,
 		"era": "Fourth Age",
 		"techCost": 4500, 
 		"buildingCost": 300,
 		"wonderCost": 750,
 		"techs": [						
 		{
-				"name": "Future Tech1",
-				"row": 1,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Can be continually researched"],
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech2",
-				"row": 2,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Can be continually researched"],
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech3",
-				"row": 3,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Can be continually researched"],
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech4",
-				"row": 4,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Can be continually researched"],
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech5",
+				"name": "Armagedon",
 				"row": 5,
 				"prerequisites": ["Future Tech"],
 				"uniques": ["Can be continually researched"],
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
+				"quote": "'I think this is the end"
 			},
-			{
-				"name": "Future Tech6",
-				"row": 6,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Can be continually researched"],
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech7",
-				"row": 7,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Can be continually researched"],
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech8",
-				"row": 8,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Can be continually researched"],
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech9",
-				"row": 9,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Can be continually researched"],
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			{
-				"name": "Future Tech10",
-				"row": 10,
-				"prerequisites": ["Future Tech"],
-				"uniques": ["Can be continually researched"],
-                "civilopediaText": [{"text": "Who knows what the future holds?"}]
-				"quote": "'I think we agree, the past is over.' - George W. Bush"
-			},
-			
 			],
 			},
+
 					{
 		"columnNumber": 20,
 		"era": "Fourth Age",
@@ -440,7 +367,7 @@
 		{
 				"name": "Future Techh",
 				"row": 5,
-				"prerequisites": ["Future Tech10","Future Tech9","Future Tech8","Future Tech7","Future Tech6","Future Tech5","Future Tech4","Future Tech3","Future Tech2","Future Tech1"],
+				"prerequisites": ["Armagedon"],
 				"uniques": ["Can be continually researched"],
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
 				"quote": "'I think we agree, the past is over.' - George W. Bush"

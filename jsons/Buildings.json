@@ -42,18 +42,6 @@
 		"cost": 0,
 		"uniques": ["Destroyed when the city is captured","Will not be displayed in Civilopedia", "Provides [9] [Nazgul]","[Nazgul] is earned [-149]% faster <without [Nazgul]>", "Unbuildable"]
 	},
-												{
-		"name": "RSupply",
-		"cost": 0,
-		"uniques": ["Automatically built in all cities where it is buildable","Will not be displayed in Civilopedia","Provides [3] [Supply]","Unsellable"]
-		},
-	{
-		"name": "Watchtower",
-		"uniqueTo": "Arnor",
-		"cost": 20,
-		"hurryCostModifier": 40,
-		"uniques": ["Destroyed when the city is captured","Can only be built <in [in capital] cities>", "Free [Watchtower Guard] appears", "[3] Unit Supply", "Unsellable"],
-	},
 	{
 		"name": "Ent Supply",
 		"uniqueTo": "Entwood",

@@ -106,22 +106,7 @@
         ],
         "color": [220,200,220]
     },
-    {
-        "name": "Umbar",
-        "friendBonusUniques": [
-            "[+1 Happiness] <before the [Second Age]>",
-            "[+2 Happiness] <starting from the [Second Age]>",
-            "[-66]% maintenance costs <for [Water] units>",
-        ],
-        "allyBonusUniques": [
-            "[+1 Happiness] <before the [Second Age]>",
-            "[+2 Happiness] <starting from the [Second Age]>",
-            "[-66]% maintenance costs <for [Water] units>",
-			"When defeating a [{Barbarian} {Water}] unit, earn [15] Gold and recruit it <with [66]% chance>",
-            "May buy [Corsair] units with [Gold] [in all cities] <if [Evil] is constructed>"
-        ],
-        "color": [255, 216, 0]
-    },
+
     {
         "name": "Militaristic",
         "friendBonusUniques": ["Provides military units every ≈[20] turns"],
@@ -140,7 +125,7 @@
 		"Comment [When having an Oath, summon the dead with a unique world wonder when at war starting from the Third Age]",
 		"[-10]% Strength <for [Dead Man of Dunharrow] units> <in [Friendly land] tiles>"
 	],
-        "color": [255, 0, 0]
+        "color": [20,255,50]
     },
     {
         "name": "Shelob's Lair",
@@ -153,7 +138,7 @@
         	"[+10]% Production when constructing [Melee] units [in all cities]",
         	"May buy [Mirkwood Spider] units with [Gold] [in all cities] <if [Evil] is constructed>"
                         ],
-        "color": [255, 0, 0]
+        "color": [170,0,120]
     },
     {
         "name": "Dunland",

@@ -96,7 +96,7 @@
 		"movement": 4,
 		"strength": 14,
 		"promotions": ["Hero"],
-		"uniques": ["Unbuildable", "[300]% Strength <vs [Witch-King] units>"],
+		"uniques": ["Unbuildable", "[300]% Strength <vs [Witch-king] units>"],
 	},
 	{
 		"name": "Theoden",
@@ -193,9 +193,19 @@
 		"name": "Smaug",
 		"unitType": "Flying",
 		"movement": 4,
-		"strength": 20,
+		"strength": 28,
 		"promotions": ["Hero","Dragon"],
-		"uniques": ["Unbuildable", "Earn [10]% of killed [Military] unit's [Cost] as [Gold]"],
+		"uniques": ["Unbuildable", "Earn [40]% of killed [Military] unit's [Cost] as [Gold]"],
+	},
+	{
+		"name": "Small Dragon",
+		"unitType": "Flying",
+		"movement": 4,
+		"requiredTech": "Astronomy",
+		"strength": 18,
+		"uniqueTo": "Mordor",
+		"promotions": ["Hero","Dragon"],
+		"uniques": ["Earn [12]% of killed [Military] unit's [Cost] as [Gold]", "[100]% Strength <vs cities> <when attacking>"],
 	},
 	{
 		"name": "Saruman",
@@ -207,6 +217,22 @@
 		"promotions": ["Hero"],
 		"uniques": ["Unbuildable", "Must set up to ranged attack", "[50]% Strength <vs [Gandalf, the Grey] units>"],
 	},
+	{
+		"name": "Big Ballista",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 8,
+		"rangedStrength": 9,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"requiredResource": "Black Arrows",
+		"uniques": ["[200]% Strength <vs [Small Dragon] units> <when attacking>", "[200]% Strength <vs [Smaug] units> <when attacking>", "No defensive terrain bonus",
+			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+
 	{
 		"name": "Shelob",
 		"unitType": "Melee",
@@ -238,6 +264,16 @@
 		"strength": 20,
 		"promotions": ["Hero"],
 		"uniques": ["Unbuildable",]
+	},
+	{
+		"name": "Armored Balrog",
+		"unitType": "Melee",
+		"movement": 8,
+		"requiredTech": "Armagedon",
+		"strength": 210,
+		"cost": 50,
+		"promotions": ["Hero"],
+		"uniques": ["Only available <if [Evil Ruler] is constructed>"]
 	},
 
 	// City States + Mercenaries
@@ -366,6 +402,24 @@
 			"Can move immediately once bought",
 			"Never appears as a Barbarian unit",
 			"Only available <with [SpecialEagle]> <if [Good] is constructed>",
+		],
+		"attackSound": "throw"
+	},
+	{
+		"name": "Vampire",
+		"unitType": "Flying",
+		"movement": 4,
+		"strength": 6,
+		"uniqueTo": "Goblins",
+		"cost": 100,
+		"requiredTech": "Astronomy",
+		"uniques": [
+			"Withdraws before melee combat <with [25]% chance>", "Unable to capture cities",
+			"Can move immediately once bought", "Can move after attacking", "No defensive terrain bonus",
+			"Never appears as a Barbarian unit",
+			"[+200]% Strength <when attacking>"
+ 			"Heals [20] damage if it kills a unit"
+			"[-100]% Strength <vs cities> <when attacking>"
 		],
 		"attackSound": "throw"
 	},
@@ -579,7 +633,7 @@
 		"requiredResource": "Horses",
 		"upgradesTo": "Knight",
 		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty"],
+		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Unbuildable <if [Dwarf King] is constructed>"],
 		"attackSound": "arrow"
 	},
 	{
@@ -722,6 +776,19 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Warg"
+		"replaces": "Horseman",
+		"unitType": "Mounted",
+		"uniqueTo": "Barbarians",
+		"movement": 4,
+		"strength": 16,
+		"cost": 75,
+		"requiredTech": "Horseback Riding",
+		"uniques": ["Can move after attacking", "[-33]% Strength <vs cities> <when attacking>"],
+		"hurryCostModifier": 20,
+		"attackSound": "nonmetalhit"
+	},
+	{
 		"name": "Ballista",
 		"unitType": "Siege",
 		"movement": 2,
@@ -733,8 +800,21 @@
 		"upgradesTo": "Catapult",
 		"requiredResource": "Copper",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>", "No defensive terrain bonus",
-			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit"],
+			"Must set up to ranged attack", "[-1] Sight", "Never appears as a Barbarian unit", "Unbuildable <if [Dwarf King] is constructed>"],
 		"hurryCostModifier": 20,
+		"attackSound": "throw"
+	},
+	{
+		"name": "Battering Ram",
+		"unitType": "Melee", 
+		"movement": 2,
+		"strength": 10,
+		"cost": 75,
+		"requiredTech": "Mathematics",
+		"obsoleteTech": "Physics",
+		"uniques": ["[+300]% Strength <vs cities> <when attacking>", "No defensive terrain bonus", "[-33]% Strength <when defending>",
+		"[-1] Sight", "Can only attack [City] units", "Only available <if [Dwarf King] is constructed>"],
+		"promotions":  ["Cover I"],
 		"attackSound": "throw"
 	},
 	{
@@ -746,13 +826,12 @@
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
+		"uniques": ["Unbuildable <if [Dwarf King] is constructed>"]
 		"upgradesTo": "Crossbowman",
 		"attackSound": "arrow"
 	},
 	{
 		"name": "Axe Thrower",
-		"uniqueTo": "Dwarves",
-		"replaces": "Composite Bowman",
 		"unitType": "Ranged",
 		"movement": 2,
 		"strength": 12,
@@ -760,25 +839,11 @@
 		"range": 1,
 		"cost": 75,
 		"requiredTech": "Construction",
-		"upgradesTo": "Crossbowman",
+		"uniques": ["Only available <if [Dwarf King] is constructed>"]
+		"upgradesTo": "Small Ballista",
 		"attackSound": "arrow"
 	},
 
-	{
-		"name": "Strider",
-		"uniqueTo": "Arnor",
-		"replaces": "Composite Bowman",
-		"unitType": "Ranged",
-		"movement": 2,
-		"strength": 8,
-		"rangedStrength": 13,
-		"range": 2,
-		"cost": 75,
-		"requiredTech": "Construction",
-		"upgradesTo": "Crossbowman",
-		"uniques": ["Ignores terrain cost"],
-		"attackSound": "arrow"
-	},
 	
 	// Second Age
 	{
@@ -825,6 +890,7 @@
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
+
 	{
 		"name": "Uruk-Hai",
 		"unitType": "Melee",
@@ -914,7 +980,7 @@
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Unbuildable <if [Dwarf King] is constructed>"],
 		"attackSound": "horse"
 	},
         {
@@ -978,7 +1044,23 @@
 		"rangedStrength": 19,
 		"cost": 120,
 		"requiredTech": "Machinery",
+		"uniques": ["Unbuildable <if [Dwarf King] is constructed>"]
 		"attackSound": "arrow"
+	},
+	{
+		"name": "Small Ballista",
+		"unitType": "Siege",
+		"movement": 3,
+		"strength": 14,
+		"rangedStrength": 19,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"obsoleteTech": "Physics",
+		"upgradesTo": "Catapult",
+		"requiredResource": "Copper",
+		"uniques": ["No defensive terrain bonus", "Must set up to ranged attack", "Never appears as a Barbarian unit", "Only available <if [Dwarf King] is constructed>"],
+		"hurryCostModifier": 20,
+		"attackSound": "throw"
 	},
 	{
 		"name": "Ithilien Ranger",
@@ -1033,6 +1115,22 @@
 		"attackSound": "throw"
 	},
 	{
+		"name": "Snow Troll",
+		"unitType": "Ranged",
+		"uniqueTo": "Angmar",
+		"movement": 1,
+		"requiredTech": "Physics",
+		"strength": 16,
+		"rangedStrength": 20,
+		"cost": 100,
+		"requiredResource": "Stone",
+		"uniques": [
+			"[+150]% Strength <vs cities> <when attacking>",
+			"Never appears as a Barbarian unit",
+                              ],
+		"attackSound": "throw"
+	},
+	{
 		"name": "Longswordsman",
 		"unitType": "Melee",
 		"movement": 2,
@@ -1048,11 +1146,11 @@
 		"movement": 2,
 		"uniqueTo": "Blue Mountains Dwarves",
 		"replaces": "Longswordsman",
-		"strength": 23,
-		"cost": 100,
+		"strength": 24,
+		"cost": 117,
 		"requiredTech": "Steel",
-		"requiredResource": "Iron",
-                "uniques": ["[+75]% Strength <when defending>"]
+		"requiredResource": "Mithril",
+                "uniques": ["[+45]% Strength <when defending>"]
 		"attackSound": "metalhit"
 	},
 	{
@@ -1074,10 +1172,10 @@
 		"uniqueTo": "Noldor Elves",
 		"unitType": "Melee",
 		"movement": 2,
-		"strength": 25,
+		"strength": 28,
 		"cost": 120,
-		"requiredTech": "Metal Casting",
-		"requiredResource": "Iron",
+		"requiredTech": "Steel",
+		"requiredResource": "Mithril",
 		"uniques": ["[+10] HP when healing"],
 		"promotions": ["Medic"],
 		"hurryCostModifier": 20,
@@ -1102,8 +1200,21 @@
 		"cost": 185,
 		"requiredTech": "Metallurgy",
 		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit", "Unbuildable <if [Dwarf King] is constructed>"],
 		"promotions": ["Formation I"],
+		"attackSound": "horse"
+	},
+	{
+		"name": "War Chariot"
+		"unitType": "Ranged",
+		"movement": 4,
+		"strength": 26,
+		"rangedStrength": 24,
+		"cost": 120,
+		"requiredTech": "Metallurgy",
+		"requiredResource": "Iron",
+		"uniques": ["Can move after attacking", "Only available <if [Dwarf King] is constructed>"],
+		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
 	{
@@ -1232,6 +1343,32 @@
 		"unitType": "Civilian",
 		"uniques": ["Can undertake a trade mission with City-State, giving a large sum of gold and [30] Influence",
 			"Can instantly construct a [Customs house] improvement <by consuming this unit>", "Great Person - [Gold]", "Unbuildable"],
+		"movement": 2
+	},
+{
+		"name": "Housebuilder",
+		"unitType": "Civilian",
+		"requiredTech": "Construction",
+		"cost": 80,
+		"uniques": ["Can instantly construct a [Archer Tower] improvement <by consuming this unit>", "Can instantly construct a [Street] improvement <by consuming this unit>","Unbuildable <if [Dwarf King] is constructed>"],
+		"movement": 2
+	},
+{
+		"name": "Hobbit Digger",
+		"unitType": "Civilian",
+		"uniqueTo": "The Shire",
+		"replaces": "Housebuilder",
+		"requiredTech": "Construction",
+		"cost": 80,
+		"uniques": ["Can instantly construct a [Hobbti Street] improvement <by consuming this unit>"],
+		"movement": 2
+	},
+{
+		"name": "Dwarf Stoneworker",
+		"unitType": "Civilian",
+		"requiredTech": "Construction",
+		"cost": 80,
+		"uniques": ["Can instantly construct a [Dwarven Dorm] improvement <by consuming this unit>", "Only available <if [Dwarf King] is constructed>"],
 		"movement": 2
 	},
 	{

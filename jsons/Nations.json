@@ -38,7 +38,7 @@
 		"name": "Umbar",
 		"leaderName": "Pelargire II",
 		"adjective": ["Umbar"],
-		"style": "motw",
+		"style": "Mote",
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		
@@ -115,7 +115,7 @@
 		"innerColor": [255,255,255],
 		"uniqueName": "The Voice of Saruman",
 		"uniqueText": "67% chance to earn 25 Gold and recruit a Barbarian unit from a conquered encampment. +25% Production towards Land units in capital. Capital can struck a Lighting Bolt (1 per Era) on the nearby enemies."
-		"uniques": ["Gain a free [Evil Ruler] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","[+25]% Production when constructing [Land] units [in capital]","Comment [May cast a lightning bolt]"],
+		"uniques": ["Gain a free [Evil Ruler] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>","[+25]% Production when constructing [Land] units [in capital]","Comment [May cast a lightning bolt]","When defeating a [Warg] unit, earn [0] Gold and recruit it <with [90]% chance>"],
 		"cities": ["Isengard","Angrenost","Fords of Isen","Nan Curunir","Dol Baran","Gwathlo","Methedras","Adorn","Wellinghall","Dunbog","Starkmoor","Pren Gwydh","Bonevales","Ral Methedras","Derndingle"]
 	},
 				{
@@ -143,7 +143,7 @@
 		"innerColor": [207, 120, 0],
 		"uniqueName": "Gather them all!",
 		"uniqueText": "Great Generals are generated 30% faster. Receives a free Nazgul when you discover Trapping. +7% Strength in Mordor Plains.",
-		"uniques": ["Gain a free [Evil Ruler] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Nazgul] is earned [30]% faster","Free [Nazgul] appears <upon discovering [Trapping] technology>","Gain a free [Nazgul Supply] [in capital]","[+7]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>"],
+		"uniques": ["Gain a free [Evil Ruler] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Nazgul] is earned [30]% faster","Free [Nazgul] appears <upon discovering [Trapping] technology>","Gain a free [Nazgul Supply] [in capital]","[+7]% Strength <for [Land] units> <when fighting in [Mordor Plains] tiles>","When defeating a [Warg] unit, earn [0] Gold and recruit it <with [90]% chance>"],
 		"cities": ["Barad Dur","Orodruin","Gorgoroth","Udun","Nurn","Dagorlad","Durthang","Cirith Gorgor","Ered Lithui","Ered Duath","Cirith Ungol","Morgul Pass","Black Gate","Nargroth","Morgai","Morannon","Seregost","Lithlad","Carach Angren"]
 	},
 					{
@@ -171,7 +171,7 @@
 		"innerColor": [87, 146, 190],
 		"uniqueName": "Terror of the North",
 		"uniqueText": "All Melee units receive Siege I promotion, +1 Movement and +10% Stength for all units during Golden Ages.",
-		"uniques": ["Gain a free [Evil Ruler] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Melee] units gain the [Siege I] promotion","[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>"],
+		"uniques": ["Gain a free [Evil Ruler] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Evil] [in capital]","[Melee] units gain the [Siege I] promotion","[+1] Movement <for [All] units> <during a Golden Age>", "[+10]% Strength <for [All] units> <during a Golden Age>","When defeating a [Warg] unit, earn [0] Gold and recruit it <with [90]% chance>"],
 		"cities": ["Carn Dum","Angmar","Forod Dum","East Angmar","Northern Hills","Dor Daedeloth","Forochel","Malenhad","Nan Gurth","Gorothlad","Gundabad","Himbar","Urugarth","Aughaire"]
 	},
 						{
@@ -338,7 +338,7 @@
 		"innerColor": [170, 100, 25],
 		"uniqueName": "Blessings of the Valar",
 		"uniqueText": "+20% great person generation in all cities. +1 Culture and +1 Gold from every specialist.",
-		"uniques": ["Gain a free [Elvish Lord] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[+20]% Great Person generation [in all cities]","[+1 Culture, +1 Gold] from every specialist [in all cities]"],
+		"uniques": ["Gain a free [Elvish Lord] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","[+20]% Great Person generation [in all cities]","[+1 Culture, +1 Gold] from every specialist [in all cities]","[+2 Culture] from every [River]"],
 		"cities": ["Rivendell","Bruinen","Ost-Hithaeglir","Hollin","Ost-in-Edhil","Glad Ereg","Mingarth","Tadgarth","Emun Naer","Hoarwell","Glanduin","Nin-in-Eilp","Gath Ulor","Urugarth","Duvumen"]
 	}, 
 {
@@ -366,7 +366,7 @@
 		"innerColor": [59, 138, 75],
 		"uniqueName": "Elven Grace",
 		"uniqueText": "All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.", 
-		"uniques": ["Gain a free [Elvish Lord] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel."],
+		"uniques": ["Gain a free [Elvish Lord] [in capital]","Gain a free [Rings] [in capital]","Gain a free [Good] [in capital]","All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.","[+2 Culture] from every [River]"],
 		"cities": ["Elvenking's Halls","Amon Lanc","Emyn Duir","Eryn Lasgalen","Carrock","Anduin Valley","Rhunen-Taur","Emyn-Nu-Fuin","Galentaur","Langwell","East Blight","Greylin","Langflood"]
 	},
 	{
@@ -491,7 +491,7 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "How barbaric. Those who live by the sword shall perish by the sword.",
-		"outerColor": [0, 0, 0],
+		"outerColor": [20, 20, 20],
 		"innerColor": [45,255,86],
 		"cities": ["Bree"]
 	},
@@ -559,8 +559,8 @@
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
 		"defeated": "What a fine battle! The dead are willing to serve you!",
-		"outerColor": [0, 0, 0],
-		"innerColor": [250,128,114],
+		"outerColor": [50, 10, 30],
+		"innerColor": [20,255,50],
 		"cities": ["Paths of the Dead"]
 	},
 	{
@@ -665,8 +665,10 @@
 	{
 		"name": "Barbarians",
 		"outerColor": [30, 5, 5],
-		"innerColor": [195, 25, 25],
+		"innerColor": [170, 35, 35],
 		"uniques": ["Can only heal by pillaging"]
 	}
+
+
 
 ]

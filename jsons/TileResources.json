@@ -12,10 +12,6 @@
 		"resourceType": "Luxury",
 	},
 	{
-		"name": "Supply",
-		"resourceType": "Strategic",
-	},
-	{
 		"name": "Special",
 		"resourceType": "Bonus",
 	},
@@ -99,7 +95,7 @@
 	},
 	{
 		"name": "Stone",
-		"resourceType": "Bonus",
+		"resourceType": "Strategic",
 		"terrainsCanBeFoundOn": ["Plains","Mordor Plains","Desert","Snow","Mountains","Red Mountains","Blue Mountains"],
 		"production": 1,
 		"improvement": "Quarry",
@@ -166,8 +162,8 @@
 	},
 				{
 		"name": "Mithril",
-		"resourceType": "Luxury",
-		"revealedBy": "Metal Casting",
+		"resourceType": "Strategic",
+		"revealedBy": "Steel",
 		"terrainsCanBeFoundOn": ["Hill","Mountains"],
 		"science": 2,
 		"gold": 2,
