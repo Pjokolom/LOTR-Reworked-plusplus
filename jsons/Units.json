@@ -1360,7 +1360,7 @@
 		"replaces": "Housebuilder",
 		"requiredTech": "Construction",
 		"cost": 80,
-		"uniques": ["Can instantly construct a [Hobbti Street] improvement <by consuming this unit>"],
+		"uniques": ["Can instantly construct a [Hobbit Street] improvement <by consuming this unit>"],
 		"movement": 2
 	},
 {
